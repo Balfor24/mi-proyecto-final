@@ -11,7 +11,7 @@ const CTA = () => {
                 <p style={{fontFamily: "Ubuntu"}} className="text-on-primary font-normal text-[16px]">Try any of our amazing products today!</p>
             </div>
             <div className="">
-                <Button variant="cuaternario">Shop</Button>
+                <Button variant="cuaternario">Go!</Button>
             </div>
         </div>
     );

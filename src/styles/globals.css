@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #222831;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.links:hover{
+  color: #38bdf8;
+  
+}
+
+.image:hover{
+  rotate: 10deg;
+  scale: 10px 10px;
+  cursor: pointer;
+  
+}
+
+.logos:hover{
+  cursor: pointer;
+
+}
+
+.socialImages:hover{
+  background-color: #4d4d4d;
+}
+
+.container{
+  width: 240px;
+  height: 144px;
+  overflow: hidden;
+}
+.cards{
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.cards:hover{
+  transform: scale(1.2);
+}
+
+.gradient{
+  background: linear-gradient(266deg, #C2FF5F -0.51%, #00FFF5 155.63%);
+
+}
+
+.debug-red{
+  border: 4px solid #ff0000;
+}
+
+.debug-green{
+  border: 4px solid#00ff00;
+}
+
+.debug-blue{
+  border: 4px solid#0000ff;
+}

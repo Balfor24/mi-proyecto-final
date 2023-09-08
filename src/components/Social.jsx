@@ -6,7 +6,7 @@ import Button from "./Button"
 const Social = () => {
     return(
         <div 
-        className="flex w-full h-[80px] px-[32px] py-[16px] items-center justify-between" 
+        className=" flex w-full h-[80px] px-[32px] py-[16px] items-center justify-between" 
     >
         <div 
         className="flex items-center gap-[48px]">

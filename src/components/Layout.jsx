@@ -10,10 +10,11 @@ import Social from "../components/Social";
 const Layout = ({children}) => {
 
     return(
-        <main className="max-w-[1440px] mx-auto">
-            <div  style={{position: 'relative', zIndex: 0}} className="w-full  flex flex-col items-center justify-center">
+        <main className=" max-w-[1440px] min-h-fit mx-auto"> 
 
-                <div style={{
+            <div  style={{position: 'relative', zIndex: -0}} className=" w-full  flex flex-col items-center justify-center">
+
+            <div style={{
                     backgroundImage: "url('/Background.png')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
@@ -25,14 +26,14 @@ const Layout = ({children}) => {
                 }}></div>
 
                 <div style={{
-                    marginTop: 1060,
-                    backgroundImage: "url('/Ground.png')",
+                    backgroundImage: "url('/Hero-Ground.png')",
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
+                    top: "540px",
                     position: "absolute",
                     width: "100%",
-                    height: "100%",
+                    height: "79%",
                     zIndex: -4,
                 }}></div>
 

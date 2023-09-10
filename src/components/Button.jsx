@@ -31,7 +31,7 @@ const Button = ({ variant, style, children }) => {
       {variant === "cuaternario" && (
         <button
           style={style}
-          className="bg-on-primary hover:bg-on-sobre hover:text-surface w-[208px] rounded-[24px]  text-on-surface flex items-center justify-center px-[40px] py-[12px] text-[20px] font-semibold"
+          className="hover:duration-700 ease-out duration-700 bg-on-primary hover:bg-on-sobre hover:text-surface w-[208px] rounded-[24px]  text-on-surface flex items-center justify-center px-[40px] py-[12px] text-[20px] font-semibold"
         >
           {children}
         </button>

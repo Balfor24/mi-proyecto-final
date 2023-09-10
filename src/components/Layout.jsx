@@ -4,7 +4,7 @@ import Logos from "../sections/Home/Logos";
 import Products from "../sections/Home/Products"
 import CTA from "../sections/Home/CTA"
 import Email from "../sections/Home/Email";
-import Social from "../components/Social";
+import Footer from "../components/Footer";
 
 
 const Layout = ({children}) => {
@@ -43,8 +43,8 @@ const Layout = ({children}) => {
                 <Products />
                 <CTA/>
                 <Email/>
-                <Social/>
                 {children}
+                <Footer />
             </div>
             
         </main>

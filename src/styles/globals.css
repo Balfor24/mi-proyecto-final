@@ -13,14 +13,10 @@ body{
   font-family: 'Ubuntu', sans-serif;
 }
 
-.links:hover{
-  color: #38bdf8;
-  
-}
 
 .image:hover{
   rotate: 360deg;
-  transition: 2s;
+  transition: 1.8s;
   scale: 10px 10px;
   cursor: pointer;
   
@@ -28,9 +24,9 @@ body{
 }
 
 
-.socialImages:hover{
+/* .socialImages:hover{
   background-color: #4d4d4d;
-}
+} */
 
 .container{
   width: 240px;

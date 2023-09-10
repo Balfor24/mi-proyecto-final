@@ -13,36 +13,36 @@ const Footer = () => {
 
         <div className=" flex flex-col items-center justify-center gap-[32px]">
             <div className="">
-                <Image className="image" src="/React.png" alt="" width={70} height={44}/>
+                <Icon className="image text-[80px] text-[#39bdf8] cursor-pointer" icon="mdi:react" />
             </div>
             <div className=" flex justify-center items-center gap-[16px]">
                 <p style={{fontFamily:'Barlow'}} className="text-white font-Oswald">Lorem Ipsum is simply dummy text <br/>of the printing and typesetting industry.</p>
             </div>
         </div>
 
-       <div className=" flex flex-col gap-[12px] justify-center">
+       <div className="items-center flex flex-col gap-[12px] justify-center">
             <h4 className="text-[16px] text-primary font-normal">Useful links</h4>
             <ul>
-                <li className="links text-[13px] text-white hover:underline hover:cursor-pointer">Home</li>
-                <li className="links text-[13px] text-white hover:underline hover:cursor-pointer">Products</li>
-                <li className="links text-[13px] text-white hover:underline hover:cursor-pointer">About</li>
-                <li className="lnks text-[13px] text-white hover:underline hover:cursor-pointer">Contact</li>
+                <li className="hover:text-[#38bdf8] text-[13px] hover:duration-400 hover:ease-out text-white hover:underline hover:cursor-pointer">Home</li>
+                <li className="hover:text-[#38bdf8] text-[13px] hover:duration-400 hover:ease-out text-white hover:underline hover:cursor-pointer">Products</li>
+                <li className="hover:text-[#38bdf8] text-[13px] hover:duration-400 hover:ease-out text-white hover:underline hover:cursor-pointer">About</li>
+                <li className="hover:text-[#38bdf8] text-[13px] hover:duration-400 hover:ease-out text-white hover:underline hover:cursor-pointer">Contact</li>
             </ul>
        </div>
 
-       <div className=" flex flex-col gap-[12px] justify-center">
+       <div className="items-center flex flex-col gap-[12px] justify-center">
             <h4 className="text-[16px] text-primary font-normal">Our services</h4>
             <ul>
-                <li className="links text-[13px] text-white hover:underline hover:cursor-pointer">Web design</li>
-                <li className="links text-[13px] text-white hover:underline hover:cursor-pointer">Web development</li>
-                <li className="links text-[13px] text-white hover:underline hover:cursor-pointer">Product management</li>
-                <li className="links text-[13px] text-white hover:underline hover:cursor-pointer">Graphic design</li>
+                <li className="hover:text-[#38bdf8]  hover:duration-500 hover:ease-out text-[13px] text-white hover:underline hover:cursor-pointer">Web design</li>
+                <li className="hover:text-[#38bdf8]  hover:duration-500 hover:ease-out text-[13px] text-white hover:underline hover:cursor-pointer">Web development</li>
+                <li className="hover:text-[#38bdf8]  hover:duration-500 hover:ease-out text-[13px] text-white hover:underline hover:cursor-pointer">Product management</li>
+                <li className="hover:text-[#38bdf8]  hover:duration-500 hover:ease-out text-[13px] text-white hover:underline hover:cursor-pointer">Graphic design</li>
             </ul>
        </div>
 
 
-       <div className=" flex flex-col text-[28px] px-[8px] py-[8px] gap-[24px]">
-            <div className=" flex flex-col gap-[12px] justify-center">
+       <div className="items-center flex flex-col text-[28px] px-[8px] py-[8px] gap-[24px]">
+            <div>
                 <h4 className="text-[16px] text-primary font-normal">Follow us</h4>
             </div>
 

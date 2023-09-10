@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
 import Products from "@/pages/Products";
+import {Icon} from "@iconify/react";
 
 
 
@@ -15,12 +16,12 @@ const NavBar = () => {
         <div 
         className="flex items-center gap-[48px]">
 
-            <Image className="image" href="https://es.react.dev/" src="/React.png" alt="" width={70} height={44}/>
+            <Icon className="image text-[80px] text-[#39bdf8] cursor-pointer" icon="mdi:react" />
             <div className="flex justify-center items-center gap-[16px]">
-                <Link className="links px-[12px] py-[8px] text-[14px] text-on-surface capitalize " href="/">home</Link>
-                <Link className="links px-[12px] py-[8px] text-[14px] text-on-surface capitalize " href="/Products">products</Link>
-                <Link className="links px-[12px] py-[8px] text-[14px] text-on-surface capitalize " href="/About">about</Link>
-                <Link className="links px-[12px] py-[8px] text-[14px] text-on-surface capitalize " href="/Contact">contact</Link>
+                <Link className="hover:text-[#38bdf8] hover:duration-500 hover:ease-out duration-500 px-[12px] py-[8px] text-[14px] text-on-surface capitalize " href="/">home</Link>
+                <Link className="hover:text-[#38bdf8] hover:duration-500 hover:ease-out duration-500 px-[12px] py-[8px] text-[14px] text-on-surface capitalize " href="/Products">products</Link>
+                <Link className="hover:text-[#38bdf8] hover:duration-500 hover:ease-out duration-500 px-[12px] py-[8px] text-[14px] text-on-surface capitalize " href="/About">about</Link>
+                <Link className="hover:text-[#38bdf8] hover:duration-500 hover:ease-out duration-500 px-[12px] py-[8px] text-[14px] text-on-surface capitalize " href="/Contact">contact</Link>
                 
             </div>
         </div>

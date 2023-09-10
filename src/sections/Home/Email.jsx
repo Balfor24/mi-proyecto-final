@@ -11,7 +11,7 @@ const Email = () => {
             <div className="">
                 <div className="bg-backgroundC flex px-[16px] py-[8px] items-center gap-[16px] rounded-[4px]">
                     <input className="bg-on-surface text-on-emailC text-[20px] font-normal  px-[4px] py-[4px]" type="email" placeholder="your@email.com" name="correo"></input>
-                    <Icon className="text-[26px] text-white hover:text-primary hover:bg-[#4d5159]" icon="material-symbols:download" />
+                    <Icon className="text-[26px] text-white hover:cursor-pointer hover:text-primary hover:bg-[#4d5159]" icon="material-symbols:download" />
                 </div>
             </div>
         </div>
